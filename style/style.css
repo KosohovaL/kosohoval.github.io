@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#049bce;
+}
+
+header{
+    background-color:#049bce;
+    width: 23%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.9;
+    height: 93vh; 
+}
+
+.menu {
+    text-decoration: none;
+    color:#049bce;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 20px;
+    display: block;
+    text-align: center;  
+}
+
+main{
+    display: flex;
+    background-color:#049bce;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.lesson{ 
+    display: block;
+    padding-left: 1px;
+    padding-right: 3x;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    text-align: center;
+    color:#049bce;
+    border: 3px dotted #049bce;
+    width: 155px;
+    height: 155px;
+}
+
+article{
+    width: 75%;
+    text-align: left;
+    display: flex;
+    font-size: 16px;
+    background-color: #fffff0;
+    flex-wrap: wrap;
+    line-height: 1;
+    justify-content: space-around;
+    border: 3px solid #66cdaa;
+}
+
+h1{
+    font-size: 18px;
+    color: white;
+    line-height: 1.8;
+}
+
+h2{
+    color: #66cdaa;
+    font-size: 19px; 
+}
+
+h3{
+    color: #fa8072;
+    font-size: 17px;
+}
+
+h4{
+    color: #66cdaa;
+    font-size: 15px;
+}
+
+h5{
+    color: #fa8072;
+    font-size: 15px;
+}
+
+.logo{
+    width: 98%;
+}
+
+.miniimg{
+    height: 12%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #fa8072;
+}
+
+a:hover{
+    color: #66cdaa;
+}
+
+.lesson:hover{
+    transition: all .1s ease-in;
+   /* background-color:rgb(4, 155, 206);*/
+    border: 5px solid #049bce;
+    background-color: cornsilk;
+    border-top-left-radius: 100% 20px;
+    border-bottom-right-radius: 100% 20px;
+} 
+
+ol{
+    list-style-type: none;
+}
