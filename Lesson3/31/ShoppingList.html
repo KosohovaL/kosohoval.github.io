@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html"><img src="/img/git.jpg" height="20" alt="Home"></a>
+        <hr size="3" color="#4ab4e8">
+        <hr size="3" color="#e7981c">
+        <h1>Список покупок <img src="/Lesson3/31/img/shopping.png" alt="Basket" width="50"></h1>
+        <hr size="3" color="#e7981c">
+        <hr size="3" color="#4ab4e8">
+    </header>
+    <form action="">
+        <br>
+        <fieldset>
+            <legend>Дані про покупки:</legend>
+            <label for="datebay">Дата покупки:</label>
+            <input type="date" name="date" id="datebay" value="2020-12-31">
+            <br>
+            <label for="note">Примітки</label>
+            <br>
+            <textarea name="notebay" id="note" cols="20" rows="2"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Онлайн покупки:</legend>
+            <label for="shop">Онлайн магазин:</label>
+            <select name="shoponline" id="shop">
+                <option value="onlineshop1" selected>Розетка</option>
+                <option value="onlineshop2">Антошка</option>
+                <option value="onlineshop3">Notino</option>
+            </select>
+            <br>
+            <br>
+            <label for="onlinebay">Список онлайн покупок:</label>
+            <br>
+            <input type="checkbox" name="online1" id="on1" value="onl1">
+            <label for="on1">Товар1</label>
+            <br>
+            <input type="checkbox" name="online2" id="on2" value="onl2">
+            <label for="on2">Товар2</label>
+            <br>
+            <input type="checkbox" name="online3" id="on3" value="onl3">
+            <label for="on3">Товар3</label>
+            <br>
+            <input type="checkbox" name="online4" id="on4" value="onl4">
+            <label for="on4">Товар4</label>
+            <br>
+            <input type="checkbox" name="online5" id="on5" value="onl5">
+            <label for="on5">Товар5</label>
+            <br>
+            <br>
+            <label for="metodp1">Спосіб оплати:</label>
+            <select name="metodpay1" id="metodp1">
+                <option value="opay1" selected>Карта</option>
+                <option value="opay3">Бонуси</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Спосіб доставки:</legend>
+                <input type="radio" name="delivery" id="del1" value="sam">
+                <label for="del1">Самовивіз</label>
+                <input type="radio" checked name="delivery" id="del2" value="np">
+                <label for="del2">Нова пошта</label>
+                <input type="radio" name="delivery" id="del3" value="justin">
+                <label for="del3">Justin</label>
+            </fieldset>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Офлайн покупки:</legend>
+            <br>
+            <label for="oflinebay">Список офлайн покупок:</label>
+            <br>
+            <input type="checkbox" name="ofline1" id="of1" value="of1">
+            <label for="of1">Товар1</label>
+            <br>
+            <input type="checkbox" name="online2" id="of2" value="of2">
+            <label for="of2">Товар2</label>
+            <br>
+            <input type="checkbox" name="online3" id="of3" value="of3">
+            <label for="of3">Товар3</label>
+            <br>
+            <input type="checkbox" name="online4" id="of4" value="of4">
+            <label for="of4">Товар4</label>
+            <br>
+            <input type="checkbox" name="online5" id="of5" value="of5">
+            <label for="of5">Товар5</label>
+            <br>
+            <br>
+            <label for="metodp2">Спосіб оплати:</label>
+            <select name="metodpay2" id="metodp2">
+                <option value="pay1" selected>Готівка</option>
+                <option value="pay2">Карта</option>
+                <option value="pay3">Бонуси</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Записати дані">
+        <button type="reset" style="cursor: pointer;"><img src="/img/reset.png" alt="" width="25"
+                style="vertical-align: middle">Очистити форму
+        </button>
+    </form>
+</body>
+
+</html>
