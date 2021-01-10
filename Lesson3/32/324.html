@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a name="34"></a>
+        <hr size="3" color="#0097fe">
+        <h1>4. Адреса описывают сетевые соединения</h1>
+        <hr size="3" color="#0097fe">
+    </header>
+    <article>
+        <section>
+            <p>Для простоты изложения предмета мы говорили, что межсетевой адрес идентифицирует ГВМ, но это не совсем
+                так. Представим себе шлюз. присоединенный к двум физическим сетям. Как мы можем назначить ему один
+                IP-адрес, если адрес кодирует как идентификатор сети, так и идентификатор ГВМ ? Мы не можем это сделать.
+                Когда обычные компьютеры имеют два или более физических соединений, они называются
+                многоадресными(multi-homed) ГВМ. Многоадресные ГВМ и шлюзы требуют нескольких адресов IP. Каждый адрес
+                соответствует одному из соединений этой машины с сетью.</p>
+        </section>
+        <section>
+            <p>
+            <h3>Учет многоадресных ГВМ приводит нас к следующему важному выводу:</h3>
+            <ul>
+                <li>Так как IP-адреса кодируют как сеть, так и ГВМ в этой сети, они не описывают конкретную машину, а
+                    только соединение ее с сетью.
+                </li>
+                <li>Поэтому шлюз, соединяющий N сетей, имеет N различных IP адресов, по одному на каждое сетевое
+                    соединение. </li>
+            </ul>
+            </p>
+        </section>
+    </article>
+    <footer>
+        <section>
+            <hr size="3" color="#0097fe">
+            <a href="/Lesson3/32//323.html#33"><img src="/Lesson3/32/img/previous.png" alt="Previous" width="50"></a>
+            <a href="/Lesson3/32//32.html"><img src="/Lesson3/32/img/home.png" alt="Home" width="50"></a>
+            <a href="/Lesson3/32//325.html#35"><img src="/Lesson3/32/img/next.png" alt="Next" width="50"></a>
+            <a href="#34"><img src="/Lesson3/32/img/top.png" alt="Top" width="50"></a>
+            <hr size="3" color="#0097fe">
+        </section>
+    </footer>
+</body>
+
+</html>
