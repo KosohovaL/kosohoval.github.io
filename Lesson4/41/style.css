@@ -1,3 +1,7 @@
+body{
+    font-size: 18px;
+}
+
 main{
     width: 70%;
     margin-left: auto;
@@ -43,6 +47,7 @@ footer{
     text-align: center;
     color: white;
     background-color: black;
-    height: 20px;
+    height: 25px;
     margin-top: -25px;
+    font-size: 20px;
 }

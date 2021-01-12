@@ -2,6 +2,7 @@ body{
     background-color:#910c00;
     margin-top: 0;
     margin-bottom: 0px;
+    font-size: 18px;
 }
 
 header{
@@ -18,22 +19,22 @@ nav.menu{
 
 figure {
     display: block; 
-    width: 100%;
 }
 
 figcaption {
     color: #fff; 
     text-align: center;
-   }
+}
 
-figure img {
-    width: 100%;
-   }
+figure,
+figcaption,
+figure img{
+    width: 68%;  
+}  
 
 main{
     display: flex; 
     width: 100%; 
-    padding-bottom: 1%;
 }
 
 .left{
@@ -88,8 +89,9 @@ footer{
     background-color:#e95b11;
     padding-bottom: 7px;
     height: 15px;
-    margin-top: 45px;
-    margin-bottom: -5px;
+     margin-bottom: -5px;
+    font-size: 20px;
+    line-height: 20px;
 }
 
   
