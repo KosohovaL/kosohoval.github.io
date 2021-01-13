@@ -2,12 +2,17 @@ body {
     background-color:#910c00;
     margin-top: 0;
     margin-bottom: 0px; 
-    font-size: 15px;
+    font-size: 14px;
     /* margin: 0 auto; */
+}
+
+.logo {
+    max-width: 100%;
 }
 
 header {
     text-align: center;
+    display: block;
 }
 
 nav.menu {
@@ -29,7 +34,7 @@ figure {
 figcaption {
     color: #fff; 
     text-align: center;
-    font-size: 2vmax;
+    font-size: 1.5vmax;
 }
 
 figure img {
@@ -102,8 +107,8 @@ footer {
     /* padding-bottom: 7px; */
     /* height: 15px; */
      margin-bottom: -5px;
-    font-size: 1.6vw;
-    line-height: 1.7vw;
+    font-size: 1.5w;
+    line-height: 1.6vw;
 }
 
   
