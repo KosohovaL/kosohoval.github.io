@@ -1,20 +1,28 @@
-body{
+body {
     background-color:#910c00;
     margin-top: 0;
-    margin-bottom: 0px;
-    font-size: 18px;
+    margin-bottom: 0px; 
+    font-size: 1.6vw;
+    /* margin: 0 auto; */
 }
 
-header{
+.container{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 99vw;
+}
+
+header {
     text-align: center;
 }
 
-nav.menu{
+nav.menu {
     background-color: black;
     display: flex;
     list-style: none;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 
 figure {
@@ -26,72 +34,78 @@ figcaption {
     text-align: center;
 }
 
-figure,
-figcaption,
-figure img{
-    width: 68%;  
+figure img {
+    width: 100%;  
 }  
 
-main{
+figcaption {
+    width: 100%;  
+}  
+
+figure {
+    width: 25%;  
+}  
+
+main {
     display: flex; 
     width: 100%; 
 }
 
-.left{
+.left {
     background-color: #7D0909;
     width: 20%;
     padding: 0px;
     margin: 0px;
 }
 
-.leftlink{
+.leftlink {
     list-style-type: none;
     padding-left: 0px;
     margin-left: 0px;
 }
 
-.leftlink li{
+.leftlink li {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.link{
+.link {
     color: #e95b11;
 }
 
-article{
+article {
     width: 65%;
     color: white;
     margin-top: 20px;
     margin-left: 10px;
 }
 
-section{
+section {
     margin-bottom: 20px;
 }
 
-.right{
+.right {
     width: 15%;
     background-color: #E3DDDD;
     color:black;
 }
 
-.h3right{
+.h3right {
     background-color: #BDBDBD;
     text-align: center;
     margin-top: 0px;
 }
 
-footer{
+footer {
     display: block; 
     text-align: center;
     color: white;
     background-color:#e95b11;
-    padding-bottom: 7px;
-    height: 15px;
+    /* padding-bottom: 7px; */
+    /* height: 15px; */
      margin-bottom: -5px;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 1.6vw;
+    line-height: 1.7vw;
 }
 
   
