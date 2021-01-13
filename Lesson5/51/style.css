@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color:#2a69a6;
+}
+
+main {
+  padding-top: 56px;
+  padding-bottom: 66px;
+}
+
+.services {
+  width: 66vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.col1,
+.col2,
+.col3 {
+  width: 25%;
+  height: 250px;
+  display: inline-block;;
+  text-align: center;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.col1,
+.col2 {
+  margin-right: 11.6%;
+}
+
+.col3 {
+  margin-right: 0px;
+}
+
+.col-title {
+color: #000000;
+font-family: "Proxima Nova";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 14px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 15px;
+padding-bottom: 18px;
+}
+
+.col-text {
+color: #9d9d9d;
+font-family: "Proxima Nova";
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: center;
+}
+
+.icofill {
+  fill:#1275b9; 
+}
+
+.icon {
+  fill:#fff;  
+  stroke: #2a69a6;  
+} 
+
+.col1:hover .icofill,
+.col2:hover .icofill,
+.col3:hover .icofill {
+  fill: #fff;
+  stroke-width: 1;
+  stroke: #2a69a6;  
+}
+
+.col1:hover .icon,
+.col2:hover .icon,
+.col3:hover .icon {
+  fill: #2a69a6;
+  stroke-width: 1;
+}
