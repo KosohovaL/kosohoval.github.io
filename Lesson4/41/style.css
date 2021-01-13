@@ -1,8 +1,8 @@
-body{
+body {
     font-size: 18px;
 }
 
-main{
+main {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -10,29 +10,29 @@ main{
     min-height: 100%;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.text_italic{
+.text_italic {
     font-style: italic;
 }
 
-.text_bold{
+.text_bold {
     font-weight: bold;
 }
 
-.slide{
+.slide {
     width: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
     color: white;
     background-color:#9D2C2B;
 }
 
-.blue{
+.blue {
     color: blue;
 }
 
@@ -40,7 +40,7 @@ h1{
     border: 2px dashed black;
 }
 
-footer{
+footer {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
