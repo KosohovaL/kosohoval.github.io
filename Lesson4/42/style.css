@@ -2,15 +2,8 @@ body {
     background-color:#910c00;
     margin-top: 0;
     margin-bottom: 0px; 
-    font-size: 1.6vw;
+    font-size: 15px;
     /* margin: 0 auto; */
-}
-
-.container{
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    width: 99vw;
 }
 
 header {
@@ -27,19 +20,24 @@ nav.menu {
 
 figure {
     display: block; 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
 }
 
 figcaption {
     color: #fff; 
     text-align: center;
+    font-size: 2vmax;
 }
 
 figure img {
-    width: 100%;  
+    width: 80%;  
 }  
 
 figcaption {
-    width: 100%;  
+    width: 80%;  
 }  
 
 figure {
