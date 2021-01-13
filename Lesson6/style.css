@@ -1,0 +1,109 @@
+body {
+    background-color:rgba(18, 17, 22);
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+    width: 90%;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(18, 17, 22, 0.5);
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.logo {
+    padding-top: 120px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 51px;
+    width: 112px;
+    height: 36px;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: auto;
+    width: 158px;
+    height: 14px;
+    margin-bottom: 21px;
+    margin-top: 0px;
+    padding-bottom: 0px;  
+    padding-top: 0px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.separator {
+    margin-bottom: 22px;
+    margin-top: 0px;
+    padding-bottom: 0px;  
+    padding-top: 0px;
+    width: 230px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ico {
+    width: 146px;
+    height: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-bottom: 0px;  
+    padding-top: 0px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.link {
+    color: #00c7fc;
+    text-decoration: none;
+}
+
+.copyright {
+    width: 250px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 86px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Open Sans Semibold';
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    text-align: left;
+}
+
+.my-icon:hover {
+    fill: #00c7fc;
+}
