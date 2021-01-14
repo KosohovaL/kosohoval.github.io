@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "Lucida Grande";
+	src: url('/LucidaGrande.ttf');
+}
+
+body {
+    width: 100vw;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Grande", sans-serif;
+    color: #fff;
+    background-color: #2B81AC;
+    text-align: left;
+}
+
+main {
+    width: 95vw;
+    height: 92vh;
+    margin: 0 auto;
+    margin-top: 4vh;
+    padding: 0;
+    background-color: #3399CC;
+    text-align: center;
+}
+
+.title,
+.advice {
+    padding-top: .6%;
+}
+
+.wi {
+    font-size: 4.5vmin;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.weather {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+h1, 
+h2 { 
+    text-align: left;
+    font-style: normal;
+   }
+
+h1, 
+h1 .wi {
+    font-size: 3.5vmin;
+}
+
+h2{
+    font-size: 3vmin;
+}
+
+.city {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 0px;
+    border: 2.5px solid #fff; 
+    line-height: 2vh;
+    background-color: #fff;
+}
+
+.container:hover .cell {
+    transition: all .1s ease-in;
+    opacity: .5;
+}   
+
+.city li.cell:hover {
+    transition: all .1s ease-in;
+    opacity: 1;
+}
+
+.city li {
+    display: inline-block;
+    text-align: center;
+    font-size: 3.5vmin;
+    border: 5px solid #fff;  
+    padding-top: 3vh;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    border: 2.5px solid #fff; 
+}
+
+.width100,
+.width50,
+.width25 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.city .width100 {
+    width: 100%;
+}
+
+.city .width50 {
+    width: 50%;
+}
+
+.city .width25 {
+    width: 25%;
+}
+
+.color1 {
+    background-color: #39c;
+}
+
+.color2 {
+    background-color: #3cc;    
+}
+
+.color3{
+    background-color: #969;
+}
+
+.color4 {
+    background-color: #c24747;    
+}
+
+.color5 {
+    background-color: #e2674a;
+}
+
+.color6 {
+    background-color: #fc6;    
+}
+
+.color7 {
+    background-color: #9c9;
+}
+
+.color8 {
+    background-color: #699;    
+}
+
+.color9 {
+    background-color: #c69;    
+}
+
+.color10 {
+    background-color: #396;
+}
+
+.color11{
+    background-color: #669;    
+}
