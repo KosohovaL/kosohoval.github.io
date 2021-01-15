@@ -2,9 +2,12 @@ body {
     background-color:rgba(18, 17, 22);
 }
 
+footer,
+.social {
+    margin: 0 auto;
+}
+
 footer {
-    margin-left: auto;
-    margin-right: auto;
     height: 420px;
     width: 90%;
     text-align: center;
@@ -14,17 +17,17 @@ footer {
     right: 0;
     background-color:rgba(18, 17, 22, 0.5);
     color: #fff;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .logo {
     padding-top: 120px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 51px;
@@ -33,14 +36,12 @@ footer {
 }
 
 .social {
-    margin-left: auto;
-    margin-right: auto;
     width: 158px;
     height: 14px;
     margin-bottom: 21px;
-    margin-top: 0px;
-    padding-bottom: 0px;  
-    padding-top: 0px;
+    margin-top: 0;
+    padding-bottom: 0;  
+    padding-top: 0;
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 400;
@@ -54,9 +55,9 @@ footer {
 
 .separator {
     margin-bottom: 22px;
-    margin-top: 0px;
-    padding-bottom: 0px;  
-    padding-top: 0px;
+    margin-top: 0;
+    padding-bottom: 0;  
+    padding-top: 0;
     width: 230px;
     height: 1px;
     background-color: #ffffff;
@@ -69,15 +70,15 @@ footer {
     height: 17px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
-    padding-bottom: 0px;  
-    padding-top: 0px;
+    margin-top: 0;
+    padding-bottom: 0;  
+    padding-top: 0;
     text-align: center;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .link {
@@ -91,9 +92,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding-top: 86px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
     color: #fff;
     font-family: 'Open Sans Semibold';
     font-size: 15px;
