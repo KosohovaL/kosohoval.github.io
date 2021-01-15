@@ -1,0 +1,167 @@
+body {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title1, 
+.title2, 
+.title3, 
+.col, 
+.icon, 
+.icon_title, 
+.icon_text {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.title1 {
+    width: 127px;
+    height: 9px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    color: #898f99;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3.8px;
+    line-height: normal;
+}
+
+.title2 {
+    width: 532px;
+    height: 36px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #0ec8cb;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4.3px;
+}
+
+.title3 {
+    width: 513px;
+    height: 43px;
+    margin-top: 44px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #999999;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.iconboxes {
+    width: 940px;
+    margin-top: 108px;
+    background-color: #f7f7f7;
+    display: inline-flex;
+}
+
+.col {
+    width: 25%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7; 
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+
+}
+
+.icon {
+    display: block;
+    height: 64px;
+    padding-bottom: 49px;
+    color: darkblue;
+    text-align: center;
+}
+
+.iconboxes .ico {
+    fill: #1b1b1b;
+}
+
+.icon_title {
+    width: 138px;
+    height: 16px;
+    padding-bottom: 31px;
+    color: #1b1b1b;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.iconboxes .icon_text {
+    width: 174px;
+    height: 101px;
+    color: #777777;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: center;
+}
+
+.col:hover .ico {
+    fill: #fff;
+}
+
+.col:hover {
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+    transition: all .2s ease-in;
+}
+
+
+.col:hover .icon_title,
+.col:hover .icon_text
+ {
+    color: #fff;
+    transition: all .2s ease-in;
+}
