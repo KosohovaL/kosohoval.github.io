@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color:#049bce;
 }
 
-header{
+header {
     background-color:#049bce;
     width: 23%;
     margin: 0;
@@ -25,7 +25,7 @@ header{
     text-align: center;  
 }
 
-main{
+main {
     display: flex;
     background-color:#049bce;
     margin: 0;
@@ -33,7 +33,7 @@ main{
     padding-top: 20px;
 }
 
-.lesson{ 
+.lesson { 
     display: block;
     padding-left: 1px;
     padding-right: 3x;
@@ -48,7 +48,7 @@ main{
     height: 155px;
 }
 
-article{
+article {
     width: 75%;
     text-align: left;
     display: flex;
@@ -60,33 +60,33 @@ article{
     border: 3px solid #66cdaa;
 }
 
-h1{
+h1 {
     font-size: 18px;
     color: white;
     line-height: 1.8;
 }
 
-h2{
+h2 {
     color: #66cdaa;
     font-size: 19px; 
 }
 
-h3{
+h3 {
     color: #fa8072;
     font-size: 17px;
 }
 
-h4{
+h4 {
     color: #66cdaa;
     font-size: 15px;
 }
 
-h5{
+h5 {
     color: #fa8072;
     font-size: 15px;
 }
 
-.logo{
+.logo {
     width: 98%;
 }
 
@@ -96,16 +96,16 @@ h5{
     padding-left: 5px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fa8072;
 }
 
-a:hover{
+a:hover {
     color: #66cdaa;
 }
 
-.lesson:hover{
+.lesson:hover {
     transition: all .1s ease-in;
    /* background-color:rgb(4, 155, 206);*/
     border: 5px solid #049bce;
