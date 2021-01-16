@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: "Proxima Nova";
     src: url("/Fonts/Proxima.otf") format("otf");
-} 
+}  */
 
 body {
     background-color: #464f54;
@@ -86,7 +86,7 @@ body {
     margin-top: 50px;
     margin-left: 63px;
     color: #767676;
-    font-family: "Proxima Nova";
+    font-family: Montserrat, sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
@@ -132,7 +132,7 @@ body {
 .myarticle .myarticle_header-smalle {
     padding-top: 202px; 
     color: #b4b4b4;
-    font-family: "Proxima Nova";
+    font-family: Montserrat, sans-serif;
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
