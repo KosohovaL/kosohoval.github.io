@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
     font-family: "Proxima Nova";
     src: url("/Fonts/Proxima.otf") format("otf");
-}  */
+} 
 
 body {
     background-color: #464f54;
@@ -86,19 +86,18 @@ body {
     margin-top: 50px;
     margin-left: 63px;
     color: #767676;
-    font-family: Montserrat, sans-serif;
+    font-family: "Proxima Nova";
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: 10px;
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .logo_text-big {
     height: 40px;
-    margin-top: 13px;
-    margin-bottom: 21px;
     margin-left: 63px;
     color: #fefefe;
     font-family: "Playfair Display", serif;
@@ -108,6 +107,19 @@ body {
     letter-spacing: normal;
     line-height: 40px;
     text-transform: capitalize;
+}
+
+input[type=text] {
+    width: 80%;
+    box-sizing: border-box;
+    outline: none;
+    color: #ffffff;
+    border: none;
+    background-color: #181818;
+  }
+
+  input[type=text]:focus {
+    border: none;
 }
 
 .cursor {
@@ -132,7 +144,7 @@ body {
 .myarticle .myarticle_header-smalle {
     padding-top: 202px; 
     color: #b4b4b4;
-    font-family: Montserrat, sans-serif;
+    font-family: "Proxima Nova";
     font-size: 20px;
     font-weight: 400;
     font-style: normal;

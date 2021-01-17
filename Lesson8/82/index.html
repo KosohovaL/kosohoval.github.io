@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Lesson8_2</title>
 </head>
 
@@ -18,9 +16,10 @@
             <header class="logo">
                 <section class="logo_text">
                     <p class="logo_text-smalle">Title</p>
-                    <p class="logo_text-big">
-                        Like tears in ra
-                        <span class="cursor">|</span>
+                    <p>
+                        <input type="text" id="myinput"
+                            onfocus=" let value = this.value; this.value = null; this.value=value" class="logo_text-big"
+                            value="Like tears in ra" autofocus>
                     </p>
                     <p class="logo_text-line"></p>
                 </section>
@@ -28,20 +27,19 @@
             <nav class="icons">
                 <section class="icons_section">
                     <img class="icons_section-png" src="/Lesson8/82/img/ic_format_color_text_white_24dp.png" alt="Text">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_size_white_24dp.png" alt="Size">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_insert_photo_white_24dp.png" alt="Photo">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_bold_white_24dp.png" alt="Bold">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_italic_white_24dp.png" alt="Italic">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_underline_white_24dp.png"
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_size_white_24dp.png" alt="Size">
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_insert_photo_white_24dp.png" alt="Photo">
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_bold_white_24dp.png" alt="Bold">
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_italic_white_24dp.png" alt="Italic">
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_underline_white_24dp.png"
                         alt="Underline">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_align_justify_white_24dp.png"
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_align_justify_white_24dp.png"
                         alt="Justity">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_align_right_white_24dp.png"
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_align_right_white_24dp.png"
                         alt="Right">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_align_center_white_24dp.png"
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_align_center_white_24dp.png"
                         alt="Center">
-                    <img class="icons_section-png" src="/Lesson8/82//img/ic_format_align_left_white_24dp.png"
-                        alt="Left">
+                    <img class="icons_section-png" src="/Lesson8/82/img/ic_format_align_left_white_24dp.png" alt="Left">
                 </section>
             </nav>
         </div>
@@ -70,6 +68,9 @@
             </div>
         </main>
     </div>
+    <script>
+        document.getElementById("myinput").focus()
+    </script>
 </body>
 
 </html>
