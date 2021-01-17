@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: "Proxima Nova";
     src: url("/Fonts/Proxima.otf") format("otf");
-} 
+}  */
 
 body {
     background-color: #464f54;
@@ -86,7 +86,7 @@ body {
     margin-top: 50px;
     margin-left: 63px;
     color: #767676;
-    font-family: "Proxima Nova";
+    font-family:  Montserrat, sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
@@ -144,7 +144,7 @@ input[type=text] {
 .myarticle .myarticle_header-smalle {
     padding-top: 202px; 
     color: #b4b4b4;
-    font-family: "Proxima Nova";
+    font-family:  Montserrat, sans-serif;
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
@@ -155,10 +155,10 @@ input[type=text] {
 }
 
 .myarticle_header-big {
-    margin-top: 35px;
+    margin-top: 40px;
     margin-bottom: 2px;
     color: #2a2a2a;
-    font-family: futura-pt, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 72px;
     font-weight: 700;
     font-style: normal;
@@ -169,6 +169,7 @@ input[type=text] {
 .myarticle_header-midle {
     padding-top: 0;
     margin-top: 0;
+    padding-bottom: 10px;
     color: #8f8f8f;
     font-family: Georgia;
     font-size: 30px;
