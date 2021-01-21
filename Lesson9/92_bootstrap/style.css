@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Hans Kendrick"; 
+    src: url("/Lesson9/92_bootstrap/fonts/HansKendrick.otf"); 
+}
+
+.bg-color {
+    background-color: #e2e7ec;
+}
+
+.container {
+    height: 1100px;
+}
+
+.img-my {
+    object-fit: cover; 
+}
+
+.my-card-title {
+    color: #1d1d1d;
+    font-family: "Hans Kendrick";
+    line-height: 30px;
+}
+
+.my-card-subtitle {
+    color: #818181;
+    font-family: "Hans Kendrick";
+    font-size: 13px;
+}
+
+.top-article1 {
+    top: 70%;
+}
+
+.my-footer {
+    color: #99a5b0;
+    font-family: "Hans Kendrick";
+    font-size: 13px;
+}
