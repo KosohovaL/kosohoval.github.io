@@ -30,7 +30,6 @@ a {
 .col {
     flex-grow: 1;
     margin: 15px;
-    /* width: 23%; */
 }
 
 .logo {
@@ -100,14 +99,12 @@ hr {
 
 .person-contact {
     width: 100%;
-    /* height: 70%; */
     position: relative;
 }
 .contact {
     background-color: #00aed9;
     width: 100%;
     height: 100%;
-    /* text-align: center; */
     opacity: 0;
     position: absolute; 
     left: 0; 

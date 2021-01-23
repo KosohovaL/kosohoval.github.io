@@ -11,40 +11,20 @@
   }
 
 body {
-    /* margin: 0;
-    padding: 0;
-    border: 0;  */
     width: 98.7vw;
     background-color: #b07cf7;
     display: flex;
     align-items: center;
     justify-content: center; 
-    /* position: relative;  */
 } 
 
 .blog {
     width: 90%;
-    /* height: 95%;  */
-    /* border: 1px solid #262626; */
-    /* margin: 0 auto; */
-    /* overflow: auto;
-    margin: auto;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0; */
 }
 
 header {
     width: 50%;
     margin: 2% auto;
-    /* margin-top: 2%;
-    margin-bottom: 2%; */
-    /* margin-top: 4%;
-    margin-bottom: 4%; */
-    /* margin-top: 100px;
-    margin-bottom: 47px; */
 }
 
 .blog-title {
