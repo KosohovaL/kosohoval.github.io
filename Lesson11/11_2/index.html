@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson11_2</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="product-card">
+            <div class="product-card__overview">
+                <div class="product-card__logo">
+                    <img src="/Lesson11/11_2/img/logo.png" alt="Logo">
+                </div>
+                <div class="product-card__img">
+                    <img src="/Lesson11/11_2/img/Nike-SB-Stefan-Janoski-Max.png" alt="Product 1">
+                </div>
+                <div class="slidebar">
+                    <span class="slidebar__item slidebar__item--active"></span>
+                    <span class="slidebar__item slidebar__item--2">&#9679;</span>
+                    <span class="slidebar__item slidebar__item--3">&#9679;</span>
+                    <span class="slidebar__item slidebar__item--4">&#9679;</span>
+                </div>
+            </div>
+            <div class="product-card__description">
+                <div class="product-card__title">
+                    Nike SB Stefan Janoski Max
+                </div>
+                <div class="product-card__subtitle">
+                    Unisex Skateboarding Shoe (Men's Sizing)
+                </div>
+                <div class="product-card__score rating-group">
+                    <label aria-label="1 star" class="rating__label" for="rating-1">
+                        <span class="rating__icon rating__icon--star">&#9733;</span>
+                    </label>
+                    <input class="rating__input" name="rating" id="rating-1" value="1" type="radio">
+                    <label aria-label="2 stars" class="rating__label" for="rating-2">
+                        <span class="rating__icon rating__icon--star">&#9733;</span>
+                    </label>
+                    <input class="rating__input" name="rating" id="rating-2" value="2" type="radio">
+                    <label aria-label="3 stars" class="rating__label" for="rating-3">
+                        <span class="rating__icon rating__icon--star">&#9733;</span>
+                    </label>
+                    <input class="rating__input" name="rating" id="rating-3" value="3" type="radio" checked>
+                    <label aria-label="4 stars" class="rating__label" for="rating-4">
+                        <span class="rating__icon rating__icon--star">&#9733;</span>
+                    </label>
+                    <input class="rating__input" name="rating" id="rating-4" value="4" type="radio">
+                    <label aria-label="5 stars" class="rating__label" for="rating-5">
+                        <span class="rating__icon rating__icon--star">&#9733;</span>
+                    </label>
+                    <input class="rating__input" name="rating" id="rating-5" value="5" type="radio">
+                </div>
+                <div class="product-card__actions">
+                    <form action="#" method="get">
+                        <select name="size" id="size" class="product-card__option">
+                            <option value="size">Size</option>
+                            <option value="M6">M6</option>
+                            <option value="M7">M7</option>
+                            <option value="M8">M8</option>
+                            <option value="M9">M9</option>
+                        </select>
+                        <select name="qty" id="qty" class="product-card__option">
+                            <option value="qty">Qty</option>
+                            <option value="M6">1</option>
+                            <option value="M7">2</option>
+                            <option value="M8">3</option>
+                            <option value="M9">4</option>
+                        </select>
+                        <button class="btn">
+                            <span class="btn__text">
+                                Add to cart
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
