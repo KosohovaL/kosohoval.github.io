@@ -1,0 +1,353 @@
+@font-face {
+    font-family: "Raleway - Heavy";
+    src: url("/Lesson11/11_1/fonts/Raleway-Heavy.ttf");
+  }
+
+html {
+    overflow-y: hidden;
+}
+
+body,
+.container {
+    overflow: overlay;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    background-color: #b07cf7;
+}
+
+.container {
+    width: 100vw;
+    height: 2600px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative; 
+}
+
+.page-header {
+    width: 100%;
+    height: 51px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+    width: 127px;
+    padding-left: 12%;
+}
+
+.logo__link {
+    color: #262626;
+    text-decoration: none;
+}
+
+.logo__text {
+    font-family: Pacifico, cursive;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.navigation {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigation__menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigation__link {
+    padding: 3px 0;
+    margin: 15px 10px;
+    display: block;
+    border-top: 3px solid transparent;
+    color: #262626;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.navigation__item--active .navigation__link {
+    border-color: #ff6033;
+}
+
+.navigation__link--uppercase {
+    text-transform: uppercase;
+}
+
+.navigation__link:hover {
+    border-color: #ff6033;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 2564px;
+} 
+
+.section {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    align-content:center;
+    align-items: center;
+} 
+
+.section--about {
+    height: 700px;
+    background-color: #00c4c4;
+    background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 32%, rgba(0, 173, 173, 0.9) 68%, rgba(0, 156, 156, 0.9) 100%);
+
+}
+
+.section--blog {
+    height: 864px;
+    background-color: #b07cf7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.section--background-img {
+    position: relative;
+    object-fit: cover; 
+    height: 100%;
+}
+
+.section__img {
+    max-width: 100%;
+}
+
+.card {
+    width: 35%;
+}
+
+.card--left {
+    position: absolute;
+    top: 37%;
+    left: 11%;
+}
+
+.card--right {
+    position: absolute;
+    top: 200px;
+    left: 60%;
+}
+
+.card--center {
+    width: 40%;
+    margin-top: 125px;
+    margin-bottom: 47px;
+}
+
+.card__title {
+    margin-bottom: 34px;
+    color: #262626;
+    font-family: Raleway, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+}
+
+.card__title--white {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 44px;
+}
+
+.card__title--center {
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.card__subtitle {
+    color: #262626;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+}
+
+.card__subtitle--white {
+    color: #ffffff;
+}
+
+.card__subtitle--center {
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    margin-top: 31px;
+    padding: 15px 25px;
+    color: #ffffff;
+    border: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #ff6033;
+}
+
+.button--orange {
+    background-color: #ff6033;
+}
+
+.button--red {
+    background-color: #f72b3b;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.post {
+    width: 1185px;
+    height: 310px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__col {
+    width: 370px; 
+    height: 100%;
+    position: relative;
+}
+
+.post__img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #fbfbf7;
+}
+
+.post__gradient {
+    width: 100%;
+    height: 49.7%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%); 
+}
+
+.post__date {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #262626;
+    opacity: 0.5;
+    position: absolute;
+    top: 11%;
+    left: 7%;
+}
+
+.post__day {
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.post__month {
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    font-family: "Raleway - Heavy";
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.post__text {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+.post__title {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.post__author {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 13px;
+    text-align: left;
+}
+
+
+::-webkit-scrollbar {
+    width: calc(100vw /2);
+} 
+
+::-webkit-scrollbar-thumb {
+	background-image: url(/img/scroll.png);
+	background-repeat: no-repeat;
+}
+
+::-webkit-resizer,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner { 
+    display: none; 
+}
+
+::-webkit-scrollbar-track {
+    margin-top: calc(100vh/2);
+}
