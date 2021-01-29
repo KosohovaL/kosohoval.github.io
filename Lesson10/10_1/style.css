@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+@font-face {
+    font-family: "Raleway - Heavy";
+    src: url("/Lesson10/10_1/fonts/Raleway-Heavy.ttf");
+  }
+
+body {
+    width: 98.7vw;
+    background-color: #b07cf7;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} 
+
+.blog {
+    width: 90%;
+}
+
+header {
+    width: 50%;
+    margin: 2% auto;
+}
+
+.blog-title {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 90px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-text {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+}
+
+.blog-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.container-img {
+    width: 32%; 
+    position: relative;
+}
+
+ .my-img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #fbfbf7;
+} 
+
+.more-button {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.more-button-text {
+    width: 100%;
+    position: absolute;
+    overflow: auto; 
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.post-date {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #262626;
+    opacity: 0.5;
+    position: absolute;
+    top: 11%;
+    left: 7%;
+}
+
+.post-date-day {
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.post-date-month {
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    font-family: "Raleway - Heavy";
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.post-text {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+.gradient {
+    width: 100%;
+    height: 49.7%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%); 
+}
+
+.post-title {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.post-author {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 13px;
+    text-align: left;
+}
+
