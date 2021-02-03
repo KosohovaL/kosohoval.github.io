@@ -53,7 +53,7 @@ body {
 .logo__text {
     color: #262626;
     font-family: Pacifico, cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     text-align: right;
 }
@@ -211,7 +211,7 @@ a:focus, a:hover {
 
 .card--left {
     position: absolute;
-    top: 37%;
+    top: 25%;
     left: 10%;
 }
 
@@ -722,7 +722,6 @@ a:focus, a:hover {
    text-decoration: none;
 }
 
-
 ::-webkit-scrollbar {
     width: 30px;
 } 
@@ -762,10 +761,6 @@ a:focus, a:hover {
     .logo__text {
         font-size: 3.125rem;
     }
-
-    /* .navigation__menu {
-        width: 40%;
-    } */
 
     .nav > li > a {
         padding: 10px 15px;
