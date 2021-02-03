@@ -59,7 +59,7 @@ body {
 }
 
 .navigation__menu {
-    width: 60%;
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -763,9 +763,9 @@ a:focus, a:hover {
         font-size: 3.125rem;
     }
 
-    .navigation__menu {
+    /* .navigation__menu {
         width: 40%;
-    }
+    } */
 
     .nav > li > a {
         padding: 10px 15px;
