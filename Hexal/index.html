@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hexagon</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#">Portfolio</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                <li class="menu__item logo"><img src="/Hexal/img/logo.png" alt="Logo"></li>
+                <li class="menu__item"><a class="menu__link" href="#"> Blog</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Get in touch</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="top-hexagon">
+        <div class="hexagon"></div>
+    </div>
+    <div class="portfolio">
+        <ul id="hexGrid">
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/1.jpg" alt="1" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/2.jpg" alt="2" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/3.jpg" alt="3" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/4.jpg" alt="4" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/5.jpg" alt="5" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/6.jpg" alt="6" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/7.jpg" alt="7" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/8.jpg" alt="8" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/9.jpg" alt="9" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/10.jpg" alt="10" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/11.jpg" alt="11" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/12.jpg" alt="12" />
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                    <a class="hexLink" href="#">
+                        <img src="/Hexal/img/13.jpg" alt="13" />
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="control">
+            <a class="control__link" href="#">&#9632;</a>
+            <a class="control__link" href="#">&#9632;</a>
+            <a class="control__link active" href="#">&#9632;</a>
+            <a class="control__link" href="#">&#9632;</a>
+            <a class="control__link" href="#">&#9632;</a>
+            <a class="control__link" href="#">&#9632;</a>
+        </div>
+    </div>
+    <section class="author">
+        <div class="hex author__img">
+            <div class="hexIn">
+                <div class="hexLink">
+                    <img src="/Hexal/img/author.jpg" alt="Author" />
+                </div>
+            </div>
+        </div>
+        <div class="author__text">
+            <div class="author__text--title">
+                Smith Anderson
+            </div>
+            <div class="author__text--subtitle">
+                Illustrator & Character Designer
+            </div>
+            <div class="author__text--small">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque exercitationem sequi optio iure a,
+                impedit minima cupiditate minus facere. Nulla maxime blanditiis error asperiores ratione, natus ducimus
+                adipisci porro neque quasi incidunt quisquam aspernatur voluptates deserunt nam obcaecati corporis!
+                Aliquam.
+            </div>
+        </div>
+    </section>
+    <section class="get">
+        <form class="form" action="" method="GET">
+            <div class="get__title">
+                Get In Touch
+            </div>
+            <div class="get__subtitle">
+                In order to get in touch use the contact form below:
+            </div>
+            <input type="text" name="name" id="name" maxlength="20" required placeholder="Name (Required)">
+            <input type="email" name="email" id="email" maxlength="20" required placeholder="Email (Required)">
+            <input type="text" name="subject" id="subject" maxlength="30" placeholder="Subject">
+            <textarea name="message" id="message" cols="30" rows="10" maxlength="100"
+                placeholder="Write your message here..."></textarea>
+            <button class="button">Send</button>
+        </form>
+        <div class="contact">
+            <div class="contact__text">
+                <span class="contact__text--bold">
+                    Quisque Hendrerit:
+                </span>
+                purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit
+                amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.
+            </div>
+            <div class="adress">
+                <div class="contact__text--bold">
+                    <p>Elm St. 14/05 Lost City</p>
+                    <p> + 3528 331 86 35</p>
+                    <p>info@hexalcorp.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__text">
+            &#169; Copyright 2013 by PSDchat
+        </div>
+    </footer>
+</body>
+
+</html>
