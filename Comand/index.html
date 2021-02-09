@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Comand/css/normalize.css">
+    <link rel="stylesheet" href="/Comand/css/style.css">
+    <script src="/Comand/script.js"></script>
+    <title>Comand</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="cookies" id="cookies">
+            <div class="cookies__text">
+                This site uses cookies, so that my service can work better.
+            </div>
+            <button class="button button--small" onclick="closeCookies()">Accept</button>
+        </div>
+        <div class="menu-container">
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li>
+                        <a class="header__link" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="header__link" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="header__link" href="#works">My Works</a>
+                    </li>
+                    <li>
+                        <a class="header__link" href="#clients">Clients</a>
+                    </li>
+                    <li>
+                        <hr class="separator">
+                    </li>
+                    <div class="header__social">
+                        <a href="facebook.com">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                                viewbox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;"
+                                xml:space="preserve">
+                                <g class="social-svg">
+                                    <path d="M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z
+		 M67.521,24.89l-6.76,0.003c-5.301,0-6.326,2.519-6.326,6.215v8.15h12.641L67.07,52.023H54.436v32.758H41.251V52.023H30.229V39.258
+		h11.022v-9.414c0-10.925,6.675-16.875,16.42-16.875l9.851,0.015V24.89L67.521,24.89z" />
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="twitter.com">
+                            <svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                                viewbox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;"
+                                xml:space="preserve">
+                                <g class="social-svg">
+                                    <path d="M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z
+                        M78.43,35.841c0.023,0.577,0.035,1.155,0.035,1.736c0,20.878-15.887,42.473-42.473,42.473c-8.127,0-16.04-2.319-22.883-6.708
+                       c-0.143-0.091-0.202-0.268-0.145-0.427c0.057-0.158,0.218-0.256,0.383-0.237c1.148,0.137,2.322,0.205,3.487,0.205
+                       c6.323,0,12.309-1.955,17.372-5.664c-6.069-0.512-11.285-4.619-13.161-10.478c-0.039-0.122-0.011-0.255,0.073-0.351
+                       c0.085-0.096,0.215-0.138,0.339-0.115c1.682,0.319,3.392,0.34,5.04,0.072c-6.259-1.945-10.658-7.808-10.658-14.483l0.002-0.194
+                       c0.003-0.127,0.072-0.243,0.182-0.306c0.109-0.064,0.245-0.065,0.355-0.003c1.632,0.906,3.438,1.488,5.291,1.711
+                       c-3.597-2.867-5.709-7.213-5.709-11.862c0-2.682,0.71-5.318,2.054-7.623c0.06-0.103,0.166-0.169,0.284-0.178
+                       c0.119-0.012,0.234,0.04,0.309,0.132c7.362,9.03,18.191,14.59,29.771,15.305c-0.193-0.972-0.291-1.974-0.291-2.985
+                       c0-8.361,6.802-15.162,15.162-15.162c4.11,0,8.082,1.689,10.929,4.641c3.209-0.654,6.266-1.834,9.09-3.508
+                       c0.129-0.077,0.291-0.065,0.41,0.028c0.116,0.094,0.164,0.25,0.118,0.394c-0.957,2.993-2.823,5.604-5.33,7.489
+                       c2.361-0.411,4.652-1.105,6.831-2.072c0.146-0.067,0.319-0.025,0.424,0.098c0.104,0.124,0.113,0.301,0.023,0.435
+                       C83.759,31.175,81.299,33.744,78.43,35.841z" />
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="behance.net">
+                            <svg version="1.1" id="behance" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                                viewbox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;"
+                                xml:space="preserve">
+                                <g>
+                                    <g class="social-svg">
+                                        <path
+                                            d="M39.337,38.729c0-4.611-3.137-4.611-3.137-4.611h-1.661H23.294v9.894H35.4C37.492,44.011,39.337,43.342,39.337,38.729z" />
+                                        <path
+                                            d="M36.201,50.846H23.294v11.85h12.311c1.852-0.053,5.27-0.633,5.27-5.76C40.875,50.784,36.201,50.846,36.201,50.846z" />
+                                        <path
+                                            d="M69.243,44.011c-6.849,0-7.804,6.835-7.804,6.835h14.565C76.005,50.846,76.092,44.011,69.243,44.011z" />
+                                        <path d="M48.875,0C21.882,0,0,21.883,0,48.875S21.882,97.75,48.875,97.75S97.75,75.867,97.75,48.875S75.868,0,48.875,0z
+			 M59.531,28.848h18.294v5.46H59.531V28.848z M50.285,57.486c0,13.533-14.084,13.088-14.084,13.088H23.294h-0.379h-9.787V26.236
+			h9.787h0.379H36.2c7.012,0,12.547,3.871,12.547,11.805c0,7.935-6.766,8.438-6.766,8.438C50.9,46.479,50.285,57.486,50.285,57.486z
+			 M69.33,64.479c7.37,0,7.109-4.77,7.109-4.77h7.803c0,12.659-15.172,11.792-15.172,11.792c-18.207,0-17.036-16.95-17.036-16.95
+			S52.02,37.517,69.068,37.517c17.947,0,15.434,19.245,15.434,19.245H61.527C61.527,65.001,69.33,64.479,69.33,64.479z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="dribbble.com">
+                            <svg version="1.1" id="dribble" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                                viewbox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;"
+                                xml:space="preserve">
+                                <g>
+                                    <g class="social-svg">
+                                        <path d="M46.927,38.775C42.032,30.117,36.8,22.816,35.746,21.367c-8.416,4.016-14.719,11.764-16.74,21.088
+			c0.084,0,0.184,0,0.299,0C22.121,42.455,33.789,42.229,46.927,38.775z" />
+                                        <path d="M69.01,25.984C63.628,21.266,56.582,18.4,48.875,18.4c-2.37,0-4.676,0.273-6.893,0.789
+			c1.242,1.678,6.471,8.9,11.243,17.631C63.539,32.92,68.159,27.148,69.01,25.984z" />
+                                        <path d="M57.713,45.988c0.208,0.488,0.41,0.975,0.609,1.459c2.365-0.291,4.725-0.404,6.967-0.404
+			c6.951,0,12.768,1.088,14.141,1.365c-0.117-7.033-2.627-13.494-6.753-18.607c-1.067,1.383-6.229,7.498-16.925,11.904
+			C56.439,43.115,57.098,44.547,57.713,45.988z" />
+                                        <path d="M50.969,49.018c0.336-0.108,0.676-0.207,1.016-0.307c-0.728-1.633-1.512-3.268-2.336-4.879
+			c-13.565,4.027-26.731,4.342-30.522,4.342c-0.35,0-0.617-0.002-0.801-0.006c-0.006,0.252-0.013,0.504-0.013,0.754
+			c0.001,7.752,2.91,14.834,7.693,20.223C27.297,67.012,35.695,53.951,50.969,49.018z" />
+                                        <path d="M48.875,0C21.882,0,0,21.883,0,48.875S21.882,97.75,48.875,97.75S97.75,75.867,97.75,48.875S75.868,0,48.875,0z
+			 M48.875,85.004c-19.948,0-36.176-16.207-36.177-36.129C12.7,28.953,28.927,12.748,48.875,12.746
+			c19.948,0.002,36.175,16.207,36.176,36.129C85.05,68.797,68.823,85.004,48.875,85.004z" />
+                                        <path d="M60.327,52.631c3.801,10.484,5.448,19.082,5.856,21.432c6.692-4.608,11.461-11.811,12.84-20.141
+			c-1.16-0.354-6.157-1.752-12.543-1.752C64.535,52.17,62.46,52.303,60.327,52.631z" />
+                                        <path
+                                            d="M54.184,54.143c-16.742,5.826-23.078,17.236-23.95,18.949c5.164,3.979,11.628,6.352,18.642,6.352
+			c4.183,0,8.172-0.844,11.806-2.37c-0.49-2.843-2.269-12.013-6.464-22.943C54.206,54.135,54.195,54.139,54.184,54.143z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </ul>
+                <div class="header__lang">
+                    <span class="lang__text">ENG</span>
+                    <img src="/img/eng.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header__container">
+            <div class="header__photo">
+            </div>
+            <div class="header__title">
+                free portfolio PSD template FOR GRAPHIC designerS
+            </div>
+            <div class="card-container">
+                <div class="header__subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia
+                </div>
+            </div>
+            <button class="button">hire me</button>
+            <div class="arrow">
+                &darr;
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="section__title">
+            About Me
+        </div>
+        <div class="section__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia
+        </div>
+    </section>
+    <section class="expert" id="services">
+        <div class="section__title">
+            Expert In
+        </div>
+        <div class="expert-cols-container">
+            <div class="expert-cols-item">
+                <div class="icon">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewbox="0 0 45 66">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: url(#a);
+                                }
+                            </style>
+                            <lineargradient id="a" x1="-0.25" y1="0.914" x2="1.25" y2="0.086"
+                                gradientunits="objectBoundingBox">
+                                <stop offset="0" stop-color="#3695ff" />
+                                <stop offset="1" stop-color="#3564fc" />
+                            </lineargradient>
+                        </defs>
+                        <g transform="translate(-588 -1570)">
+                            <g transform="translate(378.698 1370.953)">
+                                <path
+                                    d="M254.3,255.094a9.947,9.947,0,0,1-9.942,9.952H219.244a9.947,9.947,0,0,1-9.942-9.952V209a9.947,9.947,0,0,1,9.942-9.952H244.36A9.947,9.947,0,0,1,254.3,209Zm-3.14-46.1a6.806,6.806,0,0,0-6.8-6.81H219.244a6.806,6.806,0,0,0-6.8,6.81v46.1a6.806,6.806,0,0,0,6.8,6.81H244.36a6.806,6.806,0,0,0,6.8-6.81Z" />
+                                <path
+                                    d="M254.3,254.047a1.571,1.571,0,0,1-1.57,1.571h-41.86a1.57,1.57,0,0,1-1.57-1.571V209a1.571,1.571,0,0,1,1.57-1.571h41.86A1.571,1.571,0,0,1,254.3,209Zm-41.86-1.571h38.721v-41.9H212.442Z" />
+                                <path d="M234.358,205.032a2.093,2.093,0,1,1-2.093-2.1,2.094,2.094,0,0,1,2.093,2.1" />
+                                <path
+                                    d="M235.018,259.808h-5.233a1.571,1.571,0,0,1,0-3.143h5.233a1.571,1.571,0,0,1,0,3.143" />
+                                <path
+                                    d="M234.94,239.9h0a1.778,1.778,0,0,1-1.568-1.8c.012-7.888-4.769-8.7-5.313-8.755a1.633,1.633,0,0,1-1.418-1.759,1.58,1.58,0,0,1,1.675-1.457c.082.007,8.211.972,8.2,11.989a1.764,1.764,0,0,1-1.57,1.779" />
+                                <path
+                                    d="M242.121,238.856h0a1.621,1.621,0,0,1-1.568-1.632c.019-13.932-9.287-14.841-9.381-14.849a1.58,1.58,0,0,1-1.443-1.7,1.559,1.559,0,0,1,1.685-1.453c.122.01,12.3,1.2,12.279,18.013a1.618,1.618,0,0,1-1.57,1.623" />
+                            </g>
+                            <path class="a"
+                                d="M597.942,1636a9.946,9.946,0,0,1-9.942-9.952v-46.1a9.946,9.946,0,0,1,9.942-9.952h25.116a9.946,9.946,0,0,1,9.941,9.952v46.1a9.946,9.946,0,0,1-9.941,9.952Zm0-3.143h25.116a6.805,6.805,0,0,0,6.782-6.286H591.16A6.805,6.805,0,0,0,597.942,1632.857Zm-6.8-9.428h38.721v-41.9H591.14Zm.182-45.048h38.357a6.806,6.806,0,0,0-6.62-5.238H597.942A6.807,6.807,0,0,0,591.322,1578.38Zm17.161,52.381a1.571,1.571,0,0,1,0-3.143h5.233a1.571,1.571,0,0,1,0,3.143Zm5.153-19.9a1.778,1.778,0,0,1-1.568-1.8c.012-7.888-4.769-8.7-5.313-8.754a1.633,1.633,0,0,1-1.418-1.759,1.581,1.581,0,0,1,1.676-1.457c.081.007,8.211.972,8.195,11.989a1.764,1.764,0,0,1-1.57,1.779Zm7.181-1.048a1.622,1.622,0,0,1-1.568-1.633c.019-13.932-9.287-14.84-9.381-14.849a1.58,1.58,0,0,1-1.444-1.7,1.56,1.56,0,0,1,1.685-1.453c.122.011,12.3,1.2,12.279,18.014a1.618,1.618,0,0,1-1.57,1.623Zm-11.947-33.825a2.093,2.093,0,1,1,2.093,2.1A2.093,2.093,0,0,1,608.87,1575.985Z" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="section__subtitle">
+                    Mobile app design
+                </div>
+                <div class="section__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim.
+                </div>
+            </div>
+            <div class="expert-cols-item">
+                <div class="icon">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewbox="0 0 72 58.001">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: url(#a);
+                                }
+                            </style>
+                            <lineargradient id="a2" x1="-0.246" y1="1.25" x2="1.246" y2="-0.25"
+                                gradientunits="objectBoundingBox">
+                                <stop offset="0" stop-color="#3695ff" />
+                                <stop offset="1" stop-color="#3564fc" />
+                            </lineargradient>
+                        </defs>
+                        <g transform="translate(-965 -1576)">
+                            <g transform="translate(747.773 1202.98)">
+                                <path
+                                    d="M289.143,413.392a10.831,10.831,0,0,1-10.857,10.8H229.143a10.831,10.831,0,0,1-10.857-10.8V383.824a10.83,10.83,0,0,1,10.857-10.8h49.143a10.83,10.83,0,0,1,10.857,10.8Zm-3.429-29.569a7.409,7.409,0,0,0-7.429-7.392H229.143a7.409,7.409,0,0,0-7.429,7.392v29.569a7.41,7.41,0,0,0,7.429,7.392h49.143a7.41,7.41,0,0,0,7.429-7.392Z" />
+                                <path
+                                    d="M276.875,424.2H231a12.067,12.067,0,0,1-12.162-11.941,1.711,1.711,0,0,1,1.714-1.706h66.775a1.71,1.71,0,0,1,1.714,1.706A12.067,12.067,0,0,1,276.875,424.2m-54.438-10.235A8.7,8.7,0,0,0,231,420.784h45.879a8.7,8.7,0,0,0,8.559-6.824Z" />
+                                <path
+                                    d="M287.512,431.02H218.941a1.706,1.706,0,1,1,0-3.412h68.571a1.706,1.706,0,1,1,0,3.412" />
+                                <path
+                                    d="M257.7,407.469a1.707,1.707,0,0,1-1.213-2.914l9.465-9.416a1.719,1.719,0,0,1,2.424,0,1.7,1.7,0,0,1,0,2.412l-9.464,9.418a1.714,1.714,0,0,1-1.213.5" />
+                                <path
+                                    d="M243.04,409.063a1.7,1.7,0,0,1-1.213-2.911l20.505-20.406a1.719,1.719,0,0,1,2.424,0,1.7,1.7,0,0,1,0,2.412l-20.5,20.407a1.712,1.712,0,0,1-1.213.5" />
+                            </g>
+                            <path class="a"
+                                d="M966.713,1634a1.706,1.706,0,1,1,0-3.412h68.572a1.706,1.706,0,1,1,0,3.412Zm57.935-6.824H976.916a10.83,10.83,0,0,1-10.857-10.8V1586.8a10.83,10.83,0,0,1,10.857-10.8h49.143a10.831,10.831,0,0,1,10.858,10.8v29.569a10.831,10.831,0,0,1-10.858,10.8Zm-45.878-3.412h45.878a8.7,8.7,0,0,0,8.559-6.824h-63A8.7,8.7,0,0,0,978.77,1623.765Zm-9.283-36.96v26.725h64V1586.8a7.41,7.41,0,0,0-7.429-7.393H976.916A7.409,7.409,0,0,0,969.487,1586.8Zm20.113,24.741a1.7,1.7,0,0,1,0-2.414l20.506-20.406a1.72,1.72,0,0,1,2.424,0,1.7,1.7,0,0,1,0,2.412l-20.5,20.407a1.727,1.727,0,0,1-2.426,0Zm14.663-1.6a1.7,1.7,0,0,1,0-2.414l9.465-9.416a1.718,1.718,0,0,1,2.424,0,1.7,1.7,0,0,1,0,2.412l-9.464,9.418a1.72,1.72,0,0,1-2.425,0Z" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="section__subtitle">
+                    Web design
+                </div>
+                <div class="section__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim.
+                </div>
+            </div>
+            <div class="expert-cols-item">
+                <div class="icon">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewbox="0 0 58 66">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: url(#a);
+                                }
+                            </style>
+                            <lineargradient id="a1" x1="-0.25" y1="1.034" x2="1.25" y2="-0.034"
+                                gradientunits="objectBoundingBox">
+                                <stop offset="0" stop-color="#3695ff" />
+                                <stop offset="1" stop-color="#3564fc" />
+                            </lineargradient>
+                        </defs>
+                        <g transform="translate(-1362 -1573)">
+                            <g transform="translate(1020.781 703.476)">
+                                <path
+                                    d="M399.142,925.571a9.978,9.978,0,0,1-10,9.952H351.224a9.978,9.978,0,0,1-10-9.952v-46.1a9.978,9.978,0,0,1,10-9.952h37.913a9.978,9.978,0,0,1,10,9.952Zm-3.159-46.1a6.827,6.827,0,0,0-6.845-6.81H351.224a6.827,6.827,0,0,0-6.845,6.81v46.1a6.827,6.827,0,0,0,6.845,6.81h37.913a6.827,6.827,0,0,0,6.845-6.81Z" />
+                                <path
+                                    d="M346.035,890.476h-2.106a1.571,1.571,0,1,1,0-3.143h2.106a1.571,1.571,0,1,1,0,3.143" />
+                                <path
+                                    d="M395.532,890.476h-49.5a1.571,1.571,0,1,1,0-3.143h49.5a1.571,1.571,0,1,1,0,3.143" />
+                                <path
+                                    d="M397.639,890.476h-2.106a1.571,1.571,0,1,1,0-3.143h2.106a1.571,1.571,0,1,1,0,3.143" />
+                                <path d="M358.916,881.2a2.691,2.691,0,1,1-2.692-2.678,2.684,2.684,0,0,1,2.692,2.678" />
+                                <path d="M368.6,881.2a2.691,2.691,0,1,1-2.692-2.678A2.684,2.684,0,0,1,368.6,881.2" />
+                                <path d="M377.217,881.2a2.691,2.691,0,1,1-2.693-2.678,2.684,2.684,0,0,1,2.693,2.678" />
+                                <path
+                                    d="M380.682,917.112a1.57,1.57,0,0,1-.89-2.87l8.058-5.452-7.888-4.009a1.568,1.568,0,0,1-.688-2.114,1.585,1.585,0,0,1,2.126-.685l8.151,4.145a2.96,2.96,0,0,1,.406,5.037l-8.389,5.676a1.572,1.572,0,0,1-.887.272" />
+                                <path
+                                    d="M362.575,921.3a1.579,1.579,0,0,1-.888-.272l-8.343-5.645a2.959,2.959,0,0,1,.362-5.068l8.15-4.145a1.586,1.586,0,0,1,2.126.685,1.568,1.568,0,0,1-.688,2.114l-7.889,4.01,8.059,5.451a1.571,1.571,0,0,1-.89,2.87" />
+                                <path
+                                    d="M368.6,924.33a1.528,1.528,0,0,1-.47-.072,1.568,1.568,0,0,1-1.038-1.967l6.928-22.116a1.579,1.579,0,0,1,3.016.934l-6.928,22.117a1.579,1.579,0,0,1-1.508,1.1" />
+                            </g>
+                            <path class="a"
+                                d="M1372.005,1639a9.979,9.979,0,0,1-10-9.952v-46.1a9.978,9.978,0,0,1,10-9.952h37.912a9.979,9.979,0,0,1,10.006,9.952v8.944a1.587,1.587,0,0,1,0,.968v36.183a9.98,9.98,0,0,1-10.006,9.952Zm-6.846-9.952a6.827,6.827,0,0,0,6.846,6.809h37.912a6.828,6.828,0,0,0,6.846-6.809v-35.1h-51.605Zm0-46.1v7.857h51.605v-7.857a6.828,6.828,0,0,0-6.846-6.809h-37.912A6.827,6.827,0,0,0,1365.159,1582.952Zm23.758,44.781a1.567,1.567,0,0,1-1.039-1.967l6.926-22.117a1.58,1.58,0,0,1,3.018.935l-6.928,22.117a1.579,1.579,0,0,1-1.508,1.1A1.514,1.514,0,0,1,1388.917,1627.734Zm-6.449-3.227-8.343-5.645a2.959,2.959,0,0,1,.363-5.069l8.149-4.145a1.587,1.587,0,0,1,2.127.686,1.568,1.568,0,0,1-.687,2.114l-7.889,4.01,8.059,5.45a1.574,1.574,0,0,1-1.778,2.6Zm17.687-4.605a1.568,1.568,0,0,1,.418-2.183l8.058-5.452-7.887-4.009a1.566,1.566,0,0,1-.687-2.114,1.585,1.585,0,0,1,2.126-.686l8.151,4.145a2.962,2.962,0,0,1,.407,5.037l-8.391,5.676a1.586,1.586,0,0,1-2.194-.415Zm-7.538-35.222a2.691,2.691,0,1,1,2.688,2.677A2.683,2.683,0,0,1,1392.617,1584.679Zm-8.613,0a2.691,2.691,0,1,1,2.69,2.677A2.684,2.684,0,0,1,1384,1584.679Zm-9.69,0a2.692,2.692,0,1,1,2.692,2.677A2.685,2.685,0,0,1,1374.313,1584.679Z" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="section__subtitle">
+                    Web dewelopment
+                </div>
+                <div class="section__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim.
+                </div>
+            </div>
+            <div class="expert-cols-item">
+                <div class="icon">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewbox="0 0 71 67">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: url(#a);
+                                }
+                            </style>
+                            <lineargradient id="a3" x1="-0.25" y1="1.144" x2="1.25" y2="-0.144"
+                                gradientunits="objectBoundingBox">
+                                <stop offset="0" stop-color="#3695ff" />
+                                <stop offset="1" stop-color="#3564fc" />
+                            </lineargradient>
+                        </defs>
+                        <g transform="translate(-575 -2009)">
+                            <g transform="translate(-507.358 1577.967)">
+                                <path
+                                    d="M1131.792,498.033h-27.869a13.79,13.79,0,0,1-13.281-9.572L1083,464.4a13.388,13.388,0,0,1,2.021-12.135,13.863,13.863,0,0,1,11.26-5.6h43.149a13.851,13.851,0,0,1,11.243,5.608,13.438,13.438,0,0,1,2.037,12.178l-7.641,24.07a13.766,13.766,0,0,1-13.281,9.511m-35.509-48.017a10.5,10.5,0,0,0-8.537,4.238,10.093,10.093,0,0,0-1.519,9.148l7.638,24.057a10.433,10.433,0,0,0,10.057,7.224h27.869a10.4,10.4,0,0,0,10.054-7.163l7.642-24.069a10.147,10.147,0,0,0-1.536-9.191,10.491,10.491,0,0,0-8.52-4.243Z" />
+                                <path
+                                    d="M1135.387,449.458a1.683,1.683,0,0,1-1.69-1.675v-6.142c0-4-3.767-7.258-7.806-7.258h-16.9c-4.039,0-6.844,3.256-6.844,7.258v6.142a1.691,1.691,0,0,1-3.381,0v-6.142a10.266,10.266,0,0,1,10.225-10.608h16.9c5.9,0,11.187,4.759,11.187,10.608v6.142a1.683,1.683,0,0,1-1.69,1.675" />
+                            </g>
+                            <path class="a"
+                                d="M596.565,2076a13.789,13.789,0,0,1-13.28-9.572l-7.64-24.057a13.39,13.39,0,0,1,2.021-12.135,13.866,13.866,0,0,1,11.261-5.6H591.4v-5.025A10.266,10.266,0,0,1,601.628,2009h16.9c5.9,0,11.187,4.759,11.187,10.608v5.025h2.355a13.852,13.852,0,0,1,11.244,5.608,13.438,13.438,0,0,1,2.038,12.179l-7.641,24.07a13.766,13.766,0,0,1-13.28,9.51Zm-16.176-43.779a10.091,10.091,0,0,0-1.519,9.148l7.638,24.058a10.433,10.433,0,0,0,10.057,7.223h27.869a10.4,10.4,0,0,0,10.054-7.163l7.642-24.069a10.148,10.148,0,0,0-1.535-9.192,10.492,10.492,0,0,0-8.52-4.243H588.926A10.5,10.5,0,0,0,580.389,2032.221Zm14.4-12.613v5.025h31.554v-5.025c0-4-3.767-7.259-7.807-7.259h-16.9C597.589,2012.35,594.785,2015.606,594.785,2019.608Z" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="section__subtitle">
+                    Product design
+                </div>
+                <div class="section__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim.
+                </div>
+            </div>
+            <div class="expert-cols-item">
+                <div class="icon">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewbox="0 0 63 63">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: url(#a);
+                                }
+                            </style>
+                            <lineargradient id="a4" x1="-0.25" y1="1.107" x2="1.25" y2="-0.107"
+                                gradientunits="objectBoundingBox">
+                                <stop offset="0" stop-color="#3695ff" />
+                                <stop offset="1" stop-color="#3564fc" />
+                            </lineargradient>
+                        </defs>
+                        <g transform="translate(-969 -2012)">
+                            <g transform="translate(318.75 1576.626)">
+                                <path
+                                    d="M713.25,487.686a10.687,10.687,0,0,1-10.687,10.688H660.938a10.687,10.687,0,0,1-10.687-10.687V446.061a10.687,10.687,0,0,1,10.688-10.687h41.625a10.687,10.687,0,0,1,10.688,10.688Zm-3.375-41.625a7.312,7.312,0,0,0-7.312-7.312H660.938a7.312,7.312,0,0,0-7.312,7.313v41.625A7.312,7.312,0,0,0,660.938,495h41.625a7.312,7.312,0,0,0,7.313-7.312Z" />
+                                <path
+                                    d="M696.938,497.811a1.688,1.688,0,0,1-1.687-1.687v-58.5a1.688,1.688,0,0,1,3.375,0v58.5a1.688,1.688,0,0,1-1.687,1.688" />
+                                <path
+                                    d="M682.313,497.811a1.688,1.688,0,0,1-1.687-1.687v-58.5a1.688,1.688,0,0,1,3.375,0v58.5a1.688,1.688,0,0,1-1.687,1.688" />
+                                <path
+                                    d="M667.688,497.811A1.688,1.688,0,0,1,666,496.124v-58.5a1.688,1.688,0,0,1,3.375,0v58.5a1.688,1.688,0,0,1-1.687,1.688" />
+                                <path
+                                    d="M710.52,469.124H682.395a1.688,1.688,0,0,1,0-3.375H710.52a1.688,1.688,0,0,1,0,3.375" />
+                            </g>
+                            <path class="a"
+                                d="M979.688,2075A10.687,10.687,0,0,1,969,2064.313v-41.625A10.687,10.687,0,0,1,979.688,2012h41.625A10.687,10.687,0,0,1,1032,2022.688v41.625A10.687,10.687,0,0,1,1021.313,2075Zm37.687-3.375h3.938a7.312,7.312,0,0,0,7.313-7.312V2045.75h-11.25Zm-14.625,0H1014V2045.75h-11.25Zm-14.625,0h11.25v-56.25h-11.25Zm-15.75-48.937v41.625a7.312,7.312,0,0,0,7.313,7.313h5.063v-56.25h-5.062A7.312,7.312,0,0,0,972.375,2022.688Zm45,19.688h11.25v-19.687a7.312,7.312,0,0,0-7.313-7.312h-3.937Zm-14.625,0H1014v-27h-11.25Z" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="section__subtitle">
+                    Ux & Ui
+                </div>
+                <div class="section__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim.
+                </div>
+            </div>
+            <div class="expert-cols-item">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78"
+                        height="65" viewbox="0 0 78 65">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: url(#a);
+                                }
+                            </style>
+                            <lineargradient id="a5" x1="-0.25" y1="1.229" x2="1.25" y2="-0.229"
+                                gradientunits="objectBoundingBox">
+                                <stop offset="0" stop-color="#3695ff" />
+                                <stop offset="1" stop-color="#3564fc" />
+                            </lineargradient>
+                        </defs>
+                        <g transform="translate(-1357 -2008)">
+                            <g transform="translate(329.381 1593.733)">
+                                <path
+                                    d="M1083.333,465.441a11.917,11.917,0,0,1-11.762,12.065h-32.19a11.916,11.916,0,0,1-11.762-12.065V445.122a11.916,11.916,0,0,1,11.762-12.065h32.19a11.916,11.916,0,0,1,11.762,12.065Zm-3.714-20.319a8.152,8.152,0,0,0-8.048-8.255h-32.19a8.152,8.152,0,0,0-8.048,8.255v20.319a8.153,8.153,0,0,0,8.048,8.255h32.19a8.153,8.153,0,0,0,8.048-8.255Z" />
+                                <path
+                                    d="M1100.824,479.268a4.963,4.963,0,0,1-2.532-.71l-17.624-11.15a1.953,1.953,0,0,1-.912-1.681l.544-17.453a1.9,1.9,0,0,1,.846-1.542l16.964-11.136a5.364,5.364,0,0,1,2.715-.747,4.866,4.866,0,0,1,4.8,4.733v34.953a4.865,4.865,0,0,1-4.8,4.733m-17.354-14.519,16.91,10.567a1.018,1.018,0,0,0,1.525-.781V439.581a1.016,1.016,0,0,0-1.538-.776l-16.273,10.6Z" />
+                                <path
+                                    d="M1064.337,436.519a9.013,9.013,0,1,1,8.786-9.008,8.908,8.908,0,0,1-8.786,9.008m0-14.21a5.2,5.2,0,1,0,5.071,5.2,5.143,5.143,0,0,0-5.071-5.2" />
+                                <path
+                                    d="M1048.518,436.519a11.13,11.13,0,1,1,10.848-11.125,11,11,0,0,1-10.848,11.125m0-18.442a7.319,7.319,0,1,0,7.134,7.318,7.236,7.236,0,0,0-7.134-7.318" />
+                            </g>
+                            <path class="a"
+                                d="M1427.673,2072.291l-15.421-9.756a11.813,11.813,0,0,1-11.3,8.7h-32.19A11.916,11.916,0,0,1,1357,2059.174v-20.319a11.916,11.916,0,0,1,11.762-12.064h1.279a11.233,11.233,0,0,1-2.992-7.663A11,11,0,0,1,1377.9,2008a10.859,10.859,0,0,1,9.9,6.588,8.631,8.631,0,0,1,5.915-2.355,8.913,8.913,0,0,1,8.786,9.012,9.106,9.106,0,0,1-1.868,5.546h.316a11.916,11.916,0,0,1,11.762,12.064v.173l14.775-9.7a5.371,5.371,0,0,1,2.715-.747,4.867,4.867,0,0,1,4.8,4.734v34.952a4.865,4.865,0,0,1-4.8,4.733A4.971,4.971,0,0,1,1427.673,2072.291Zm2.075-39.753-16.274,10.6-.624,15.348,16.91,10.567a1.018,1.018,0,0,0,1.526-.781v-34.952a.973.973,0,0,0-1.03-.918A.928.928,0,0,0,1429.748,2032.538Zm-69.034,6.317v20.319a8.153,8.153,0,0,0,8.048,8.255h32.19a8.153,8.153,0,0,0,8.048-8.255v-20.319a8.152,8.152,0,0,0-8.048-8.255h-32.19A8.152,8.152,0,0,0,1360.714,2038.855Zm25.042-12.064h1.045q-.248-.324-.468-.673Q1386.058,2026.465,1385.756,2026.79Zm2.893-5.546a5.072,5.072,0,1,0,5.07-5.2A5.14,5.14,0,0,0,1388.649,2021.244Zm-17.885-2.118a7.137,7.137,0,1,0,7.135-7.317A7.235,7.235,0,0,0,1370.764,2019.127Z" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="section__subtitle">
+                    Animations
+                </div>
+                <div class="section__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last-work" id="works">
+        <div class="section__title">
+            Latest works
+        </div>
+        <div class="last-grup-img">
+            <div class="last-img-block">
+                <img class="last-img" src="/Comand/img/work1.png" alt="Work 1">
+            </div>
+            <div class="last-img-block">
+                <img class="last-img" src="/Comand/img/work2.png" alt="Work 2">
+            </div>
+            <div class="last-img-block">
+                <img class="last-img" src="/Comand/img/work3.png" alt="Work 3">
+            </div>
+            <div class="last-img-block">
+                <img class="last-img" src="/Comand/img/work4.png" alt="Work 4">
+            </div>
+            <div class="last-img-block">
+                <img class="last-img" src="/Comand/img/work5.png" alt="Work 5">
+            </div>
+            <div class="last-img-block">
+                <img class="last-img" src="/Comand/img/work6.png" alt="Work 6">
+            </div>
+        </div>
+    </section>
+    <section class="clients" id="clients">
+        <div class="section__title">
+            Clients
+        </div>
+        <div class="card-container">
+            <img class="clients__img" src="/Comand/img/msft.png" alt="Microsoft">
+            <img class="clients__img" src="/Comand/img/samsung.png" alt="Samsung">
+            <img class="clients__img" src="/Comand/img/ibm.png" alt="IBM">
+            <img class="clients__img" src="/Comand/img/google.png" alt="Google">
+        </div>
+    </section>
+    <section class="ready">
+        <div class="ready-container">
+            <div class="ready-text">
+                Need a graphic designer?
+                <span class="ready-text--boold">
+                    Ready to work!
+                </span>
+            </div>
+            <button class="button" id="form-open" onclick="openForm()">hire me</button>
+        </div>
+    </section>
+    <form action="#" method="post" class="form" id="form">
+        <div class="form__close" onclick="closeForm()">
+            <span></span>
+        </div>
+        <div class="form__container">
+            <div class="section__title section__title--margin0">
+                hire me
+            </div>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Your e-mail" required>
+            <br>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+            <br>
+            <input class="button button--blue" type="submit" value="Send message">
+        </div>
+    </form>
+    <script>
+        function closeCookies() {
+            document.getElementById("cookies").style.display = "none";
+        }
+    </script>
+    <script>
+        function openForm() {
+            document.getElementById("form").style.display = "block";
+        }
+    </script>
+    <script>
+        function closeForm() {
+            document.getElementById("form").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
