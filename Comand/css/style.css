@@ -293,6 +293,7 @@ body {
 .button--blue {
     background-image: linear-gradient(to top, #3695ff, #3564fc), linear-gradient(to bottom, #3677fd, #3677fd);
     color: #ffffff;
+    font-size: 0.72rem;
 }
 
 .button:hover {
@@ -489,7 +490,7 @@ body {
 /* Form begin */
 .form {
     display: none;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     position: fixed;
     top: 0;
