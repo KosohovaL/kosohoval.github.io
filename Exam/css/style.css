@@ -434,6 +434,10 @@ button {
 .control__svg {
     fill: #373737;
 }
+
+.control__svg:hover {
+    fill: #1abc9c;
+}
 /* End Design */
 
 /* Begin Community */
