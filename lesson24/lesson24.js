@@ -7,12 +7,10 @@ function compareNumbers(a, b) {
     if (a > b) {
         return 1;
     };
-    if (a === b) {
-        return 0;
-    }
+    return 0;
 }
 
-console.log(`Task1. Result: ${compareNumbers(10, 7)}`);
+console.log(`Task1. Result: ${compareNumbers(7, 7)}`);
 
 // Task2
 
