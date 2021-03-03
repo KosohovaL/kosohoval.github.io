@@ -4,9 +4,14 @@ const age = parseInt(
     prompt('Please enter your age'),
 );
 
-(age >= 60) ? console.log('Your age ', age, ' years - You are retired') :
-    (age >= 18) ? console.log('Your age ', age, ' years - You are adult') :
-        (age >= 12) ? console.log('Your age ', age, ' years - You are teenager') : console.log('Your age ', age, ' years - You are child');
+if (age >= 60) {
+    console.log('Your age ', age, ' years - You are retired');
+} else if (age >= 18) {
+    console.log('Your age ', age, ' years - You are adult')
+} else if (age >= 12) {
+    console.log('Your age ', age, ' years - You are teenager');
+} else
+    console.log('Your age ', age, ' years - You are child');
 
 // Task2
 
