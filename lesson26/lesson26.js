@@ -25,7 +25,7 @@ function printShoppingList(shoppingList) {
 printShoppingList(shoppingList);
 
 shoppingList.sort(function (listItem1, listItem2) {
-    return (listItem1.buy) ? 1 : -1;
+    return (listItem1.buy > listItem2.buy) ? 1 : -1;
 });
 
 printShoppingList(shoppingList);
