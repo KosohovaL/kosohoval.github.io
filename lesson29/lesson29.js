@@ -94,13 +94,13 @@ myTh.forEach(item => item.addEventListener('click', function () {
 // Task3
 const task3Title = document.createElement('h2');
 const resizeDiv = document.querySelector('#resize');
+const resizer = document.createElement('div');
 let startX = 0;
 let startWidth = 0;
 
 task3Title.innerText = 'Task3.\nChange width DIV. Move the mouse pointer to the lower right corner';
 start.append(task3Title);
 resizeDiv.className = 'resizable';
-let resizer = document.createElement('div');
 resizer.className = 'resizer';
 resizeDiv.appendChild(resizer);
 
