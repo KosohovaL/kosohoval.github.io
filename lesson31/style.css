@@ -30,7 +30,7 @@ header {
 .svg-img-triangle {
     position: absolute;
     top: 60%;
-    left: 10%;
+    left: 7%;
 }
 
 .subtitle {
@@ -41,6 +41,7 @@ header {
     line-height: 3;
     letter-spacing: 3.6px;
     text-align: center;
+    text-transform: uppercase;
     color: #303030;
 }
 
@@ -52,6 +53,7 @@ header {
     line-height: 1.05;
     letter-spacing: normal;
     text-align: center;
+    text-transform: uppercase;
     color: #000000;
 }
 
