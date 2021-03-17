@@ -1,0 +1,234 @@
+* {
+    transition: all .1s ease-in;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 97vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #1E90FF;
+    font-size: 18px;
+    background-image: url(/lesson32/img/background.jpg);
+    background-position: center;
+    overflow-x: hidden;
+    transition: all .1s ease-in;
+}
+
+.shadow-text {
+    text-shadow: 0 1px 0 #cccccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbbbbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaaaaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+.border {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 3px #1E90FF;
+}
+
+.shadow-box {
+    box-shadow: 0 1px 0 #cccccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbbbbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaaaaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 70px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.myForm {
+    width: 50%;
+    margin: 10px auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.myLabel {
+    margin-right: 10px;
+}
+
+input,
+select,
+button {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+
+.btn {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 5px 15px;
+    background-color: #1E90FF;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #1E90FF;
+}
+
+.btn:hover,
+.pagination:hover {
+    background-color: #ffffff;
+    color: #1E90FF;
+}
+
+.movie-container {
+    width: 90%;
+    min-height: 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.movie-card {
+    width: 18.4%;
+    height: 500px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.movie-title {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+}
+
+.poster {
+    width: 100%;
+    height: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-poster {
+    width: 72%;
+    max-height: 90%;
+}
+
+.movie-text {
+    display: none;
+    text-align: center;
+}
+
+.more-text {
+    display: block;
+}
+
+.movie-text-more {
+    padding: 2px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#result {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-result {
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px 0;
+}
+
+.pagination-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.pagination {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ffffff;
+    color: #1E90FF;
+}
+
+
+
+
