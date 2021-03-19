@@ -10,13 +10,13 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 L.marker([49.58958041338978, 34.551147222546206]).addTo(mymap)
-    .bindPopup('<img class="img-map" src="/img/foto1.jpg" alt="foto1"> <br> <p class = "popup-text"> Корпусний сад<br> <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%BF%D1%83%D1%81%D0%BD%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4_(%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0)" target = "_blank" >Wikipedia</a > </p>')
+    .bindPopup('<img class="img-map" src="/lesson33/img/foto1.jpg" alt="foto1"> <br> <p class = "popup-text"> Корпусний сад<br> <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%BF%D1%83%D1%81%D0%BD%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4_(%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0)" target = "_blank" >Wikipedia</a > </p>')
 
 L.marker([49.58349088020767, 34.561355709729476]).addTo(mymap)
-    .bindPopup('  <img class="img-map" src="/img/foto2.jpg" alt="foto2"> <br> <p class = "popup-text">  Полтавський краєзнавчий музей<br> <a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D1%94%D0%B7%D0%BD%D0%B0%D0%B2%D1%87%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9" target = "_blank" >Wikipedia</a ></p> ')
+    .bindPopup('  <img class="img-map" src="/lesson33/img/foto2.jpg" alt="foto2"> <br> <p class = "popup-text">  Полтавський краєзнавчий музей<br> <a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D1%94%D0%B7%D0%BD%D0%B0%D0%B2%D1%87%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9" target = "_blank" >Wikipedia</a ></p> ')
 
 L.marker([49.58156984754003, 34.569547176306514]).addTo(mymap)
-    .bindPopup('  <img class="img-map" src="/img/foto3.jpg" alt="foto3"> <br> <p class = "popup-text"> Біла альтанка<br> <a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D1%94%D0%B7%D0%BD%D0%B0%D0%B2%D1%87%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9" target = "_blank" >Wikipedia</a > </p>')
+    .bindPopup('  <img class="img-map" src="/lesson33/img/foto3.jpg" alt="foto3"> <br> <p class = "popup-text"> Біла альтанка<br> <a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D1%94%D0%B7%D0%BD%D0%B0%D0%B2%D1%87%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9" target = "_blank" >Wikipedia</a > </p>')
 
 
 let control = L.Routing.control({
