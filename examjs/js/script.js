@@ -8,15 +8,16 @@ $(document).ready(function () {
     });
 
     function addSliderAPI(imgList) {
-        for (let i = 3; i < 11; i++) {
-            $(`#gal2${i}`).append(
-                `<img class="gallery__img" src="${imgList[i].webformatURL}" alt="Gallery2">`
-            );
-        }
+        imgList.forEach((itemImg) => {
+            $(`.slider2`).append(
+                `<div class="gallery__cel">
+               <img class="gallery__img" src="${itemImg.webformatURL}" alt="Gallery2">
+           </div>` )
+        })
     }
 
     function imgAPI() {
-        const link = `https://pixabay.com/api/?key=20777658-fd9f7557d2f4a166b87d8a0a7&q=iphone&image_type=photo&pretty=true&orientation=horizontal&per_page=12`;
+        const link = `https://pixabay.com/api/?key=20777658-fd9f7557d2f4a166b87d8a0a7&q=iphone&image_type=photo&pretty=true&orientation=horizontal&per_page=15`;
         fetch(link)
             .then((response) => {
                 let myresult = response.json()
@@ -24,7 +25,20 @@ $(document).ready(function () {
             })
             .then((result) => {
                 addSliderAPI(result.hits);
-                $(".slider").slick.refresh();
+                $(".slider2").slick({
+                    lazyLoad: 'ondemand',
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    swipeToSlide: true,
+                    prevArrow: $('.prev'),
+                    nextArrow: $('.next'),
+                    lazyLoad: 'ondemand',
+                    focusOnSelect: true,
+                    infinite: true,
+                    speed: 700,
+                    waitForAnimate: false,
+                });
             })
             .catch((error) => {
                 console.log(error);
@@ -50,22 +64,6 @@ $(document).ready(function () {
         infinite: true,
         speed: 700,
         waitForAnimate: false,
-    });
-
-    $(".slider2").slick({
-        lazyLoad: 'ondemand',
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        centerMode: false,
-        swipeToSlide: true,
-        prevArrow: $('.prev'),
-        nextArrow: $('.next'),
-        lazyLoad: 'ondemand',
-        focusOnSelect: true,
-        infinite: true,
-        speed: 700,
-        waitForAnimate: false,
-        // wariablewidth: true
     });
 
     $('#subscribeBtn').click(function (event) {
