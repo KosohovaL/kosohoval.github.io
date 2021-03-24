@@ -72,7 +72,8 @@ $(document).ready(function () {
 
     $('#closeBtn').click(() => $('#modal').toggleClass('activeModal'));
 
-    $('.modal').click(function (e) {
+    $('.form').submit(function (e) {
+        event.preventDefault();
         if ($(e.target).is('.modal')) {
             $('#modal').toggleClass('activeModal');
         }
