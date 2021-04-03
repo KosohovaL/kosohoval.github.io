@@ -1,0 +1,65 @@
+.song-item {
+    width: 70%;
+    margin: 5px auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.is-play {
+    border: 1px solid blue;
+    background-color: skyblue;
+}
+
+.is-stop {
+    border: 1px solid transparent;
+}
+
+.song-item-name {
+    width: 40%;
+    font-size: 16px;
+}
+
+.song-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6495ed;
+}
+
+.song-title{
+    padding-left: 25px;
+    font-style: italic;
+}
+
+.sound-btn{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #0000ff;
+    outline: none;
+    background-color: #bad1e4;
+    border: 1px solid #0000ff;
+    cursor: pointer;
+}
+
+.btn-stop {
+    padding-bottom: 5px;
+}
+
+.sound-btn:hover {
+    color: #6495ed;
+}
+
+.btn-dell {
+    color: #ff0000;
+    font-size: 22px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}

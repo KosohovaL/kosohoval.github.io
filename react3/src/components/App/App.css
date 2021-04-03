@@ -1,0 +1,24 @@
+.centered {
+  text-align: center;
+}
+
+h1 {
+  color: #0000ff;
+  text-align: center;
+}
+
+.btn-form {
+    padding: 7px;
+    color: #0000ff;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #0000ff;
+    outline: none;
+    background-color: #bad1e4;
+    border: 1px solid #0000ff;
+    cursor: pointer;
+}
+
+.btn-form:hover {
+    color: #6495ed;
+}
