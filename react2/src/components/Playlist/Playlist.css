@@ -1,0 +1,53 @@
+.song-item {
+    width: 70%;
+    margin: 5px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.is-play {
+    border: 1px solid blue;
+    background-color: skyblue;
+}
+
+.is-stop {
+    border: 1px solid transparent;
+}
+
+.song-item-name {
+    font-size: 16px;
+}
+
+.song-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6495ed;
+}
+
+.song-title{
+    padding-left: 25px;
+    font-style: italic;
+}
+
+button{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #0000ff;
+    outline: none;
+    background-color: #bad1e4;
+    border: 1px solid #0000ff;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #6495ed;
+}
