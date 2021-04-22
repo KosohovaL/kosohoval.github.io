@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Lesson12/12_2/css/normalize.css">
+    <link rel="stylesheet" href="/Lesson12/12_2/css/style.css">
+    <title>Lesson12_2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="footer">
+                <nav class="nav">
+                    <a href="#sign-in" class="nav__item nav__item--active">Sign in</a>
+                    <a href="#join-us" class="nav__item">Join us</a>
+                </nav>
+            </div>
+            <form action="#" method="get">
+                <div class="form">
+                    <div class="form__control">
+                        <label class="form__label" for="username">Username</label>
+                        <input class="form__input" minlength="5" type="text" id="username" name="username">
+                    </div>
+                    <div class="form__control">
+                        <label class="form__label" for="pwd">Password</label>
+                        <input class="form__input" required type="password" id="pwd" name="pwd"><br>
+                    </div>
+                    <div class="form__control form__control--checkbox">
+                        <input type="checkbox" id="signed" name="signed" value="Keep me signed in">
+                        <label class="form__label form__label--checkbox" for="signed">Keep me signed in</label>
+                    </div>
+                    <div class="form__control form__control--button">
+                        <button type="submit" class="button">Sign in</button>
+                    </div>
+                    <div class="form__footer">
+                        <div class="form__link--border">
+                            <a class="form__link" href="#">Forgot password</a>
+                        </div>
+                        <div class="form__link--border">
+                            <a class="form__link" href="#">Create an account</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
