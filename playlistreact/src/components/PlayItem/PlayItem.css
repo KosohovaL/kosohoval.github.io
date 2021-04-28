@@ -1,0 +1,88 @@
+.song-item {
+    width: 100%;
+    margin: 5px auto;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.song-item:hover {
+    border: 1px solid #17a2b8;
+    /* cursor: pointer; */
+}
+
+.is-play {
+    border: 1px solid #17a2b8;
+    background-color: skyblue;
+}
+
+.is-stop {
+    border: 1px solid transparent;
+}
+
+.song-item-name {
+    /* width: 40%; */
+    font-size: 16px;
+}
+
+.status {
+    color: #6495ed;
+}
+
+.song-author {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #17a2b8;
+}
+
+.song-title{
+    padding-left: 25px;
+    font-style: italic;
+    color: #17a2b8;
+    font-size: 18px;
+}
+
+.sound-btn{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    border-radius: 50%;
+    color: #17a2b8;
+    outline: none;
+    background-color: #bad1e4;
+    border: 1px solid #17a2b8;
+}
+
+.btn-stop {
+    padding-bottom: 5px;
+}
+
+.sound-btn:hover {
+    color: #6495ed;
+    cursor: pointer;
+}
+
+.btn-dell {
+    color: #ff0000;
+    font-size: 22px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.my-modal {
+    border: none;
+}
+
+.my-modal-header {
+    color: #ffffff;
+    background-color: #17a2b8;
+    border: none;
+}
