@@ -1,0 +1,53 @@
+.sound-item-form {
+    width: 90%;
+    margin: 15px auto;
+    margin-bottom: 80px;
+    padding: 10px;
+    border: 1px solid #17a2b8;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px
+}
+
+.form-label {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.form-control {
+    display: block;
+    width: 95%;
+}
+
+.btn-form-add {
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #0000ff;
+    outline: none;
+    background-color: #bad1e4;
+    border: 1px solid #17a2b8;
+    cursor: pointer;
+}
+
+.btn-form-add:hover {
+    color: #6495ed;
+}
+
+input[type="file"] {
+    cursor: pointer !Important;
+}
+
+.progress {
+    height: 20px;
+    font-size: large;
+    background: none;
+    color: #17a2b8;
+} 
+
