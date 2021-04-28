@@ -1,0 +1,9 @@
+.btn-form:hover {
+    color: #6495ed;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
